@@ -31,7 +31,7 @@ window.addEventListener("load", (e) => {
             tbodyUsers.innerHTML = lista;
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/users.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/users.php");
     xhr.send(data);
 });
 botonUser.addEventListener("click", (e) => {
@@ -72,7 +72,7 @@ botonUser.addEventListener("click", (e) => {
             passwordUser.value = "";
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/users.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/users.php");
     xhr.send(formData)
 });
 
@@ -101,7 +101,7 @@ function eliminar($soy) {
             tbodyUsers.innerHTML = lista;
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/users.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/users.php");
     xhr.send(formData)
 }
 
@@ -127,7 +127,7 @@ function editar($soy) {
             bottonedicion.setAttribute("data-user", listaUser[0].Id);
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/users.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/users.php");
     xhr.send(formData);
 }
 bottonedicion.addEventListener("click", function(e) {
@@ -166,6 +166,6 @@ bottonedicion.addEventListener("click", function(e) {
             bottonedicion.style.display = "none";
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/users.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/users.php");
     xhr.send(formData);
 });

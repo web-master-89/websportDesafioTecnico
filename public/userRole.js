@@ -58,7 +58,7 @@ xhr.onload = (e) => {
         });
     }
 }
-xhr.open("POST", "http://localhost:8080/webexports/actions/asignRole.php");
+xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/asignRole.php");
 xhr.send(formData);
 botonRegistrar.addEventListener("click", function(e) {
     e.preventDefault();
@@ -117,7 +117,7 @@ botonRegistrar.addEventListener("click", function(e) {
                         }
                     }
                 }
-                xhr.open("POST", "http://localhost:8080/webexports/actions/asignRole.php");
+                xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/asignRole.php");
                 xhr.send(formData);
             } else if (element.children[0].disabled === false) {
                 Swal.fire({
@@ -169,6 +169,6 @@ function eliminar(soy) {
             tbodyUserRole.innerHTML = lista;
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/asignRole.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/asignRole.php");
     xhr.send(formData)
 }

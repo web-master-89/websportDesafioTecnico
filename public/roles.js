@@ -22,7 +22,7 @@ window.addEventListener("load", (e) => {
             tbodyUsers.innerHTML = lista;
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/roles.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/roles.php");
     xhr.send(data);
 });
 botonRole.addEventListener("click", function(e) {
@@ -52,7 +52,7 @@ botonRole.addEventListener("click", function(e) {
             nombreRole.value = "";
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/roles.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/roles.php");
     xhr.send(formData)
 });
 
@@ -78,7 +78,7 @@ function eliminar($soy) {
             tbodyUsers.innerHTML = lista;
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/roles.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/roles.php");
     xhr.send(formData)
 }
 
@@ -101,7 +101,7 @@ function editar($soy) {
             bottonedicion.setAttribute("data-role", listaRole[0].Id);
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/roles.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/roles.php");
     xhr.send(formData);
 }
 bottonedicion.addEventListener("click", function(e) {
@@ -130,6 +130,6 @@ bottonedicion.addEventListener("click", function(e) {
             bottonedicion.style.display = "none";
         }
     }
-    xhr.open("POST", "http://localhost:8080/webexports/actions/roles.php");
+    xhr.open("POST", "http://localhost:8080/websportDesafioTecnico/actions/roles.php");
     xhr.send(formData);
 })
