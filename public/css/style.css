@@ -1,0 +1,66 @@
+    #user-form {
+        width: 500px;
+        height: 450px;
+        margin-left: 80px;
+        margin-top: 50px;
+    }
+    
+    .title-users {
+        margin-top: 50px;
+        margin-left: 90px;
+    }
+    
+    #exampleInputNombre,
+    #exampleInputApellido,
+    #exampleInputEmail1,
+    #exampleInputPassword1 {
+        width: 300px;
+    }
+    
+    .user-button {
+        margin-left: 13px;
+    }
+    
+    .usuarios {
+        width: 600px;
+        margin-left: 100px;
+    }
+    
+    .tabla-usuario {
+        width: 600px;
+    }
+    
+    .user-edicion {
+        display: none;
+    }
+    
+    #role-edicion {
+        display: none;
+    }
+    
+    .divRol {
+        width: 500px;
+        height: 450px;
+        margin-left: 80px;
+        margin-top: 30px;
+    }
+    
+    .title-roles {
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    
+    .Roles {
+        width: 500px;
+        margin-left: 80px;
+        margin-top: -290px;
+    }
+    
+    .registrarRole {
+        margin-top: 100px;
+    }
+    
+    .desafio {
+        font-size: 100px;
+        margin-top: 200px;
+    }

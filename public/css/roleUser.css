@@ -1,0 +1,36 @@
+.asign-permisos {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.form-check {
+    margin-left: 150px;
+}
+
+.registrarRole {
+    transform: translateX(-310px);
+    margin-top: 30px;
+}
+
+#userPerAsign {
+    margin-left: 300px;
+    transform: translateY(-135px);
+}
+
+.divmodificar {
+    margin-left: 50px;
+    display: none;
+}
+
+.botonModiRole {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.tabladeAsignaciones {
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
